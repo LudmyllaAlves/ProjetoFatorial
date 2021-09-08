@@ -1,6 +1,7 @@
 public class Fatorial
 {
 //versão interativa
+//teste commit
 public int calcularFatorial(int n)
 {
 int resultado = 1;
