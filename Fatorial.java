@@ -1,4 +1,5 @@
 public class Fatorial{
+//incluindo um teste
 //Versao iterativa do cálculo do fatorial
 public int calcularFatorial(int n) throws IllegalArgumentException {
 if (n < 0)
