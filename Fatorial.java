@@ -1,13 +1,14 @@
-public class Fatorial
-{
-//versão interativa
-//teste commit
-public int calcularFatorial(int n)
-{
+public class Fatorial{
+//Versao iterativa do cálculo do fatorial
+public int calcularFatorial(int n) throws IllegalArgumentException {
+if (n < 0)
+throw new IllegalArgumentException("nao existe fatorial para numeros negativo");
 int resultado = 1;
-for (int i = 2; i <=n; i ++)
+if (n !=0) {
+for (int i = 2; i <=n; i++)
 resultado *= i;
-return resultado;
 }
-} 
+return resultado;
+ }
+}
 
